@@ -1,11 +1,18 @@
 import React from 'react'
 
-const ContactPage = () => {
-  return (
-    <div>
+const Contact = () => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  // }
 
-    </div>
+
+  return (
+    <section>
+      <div>
+
+      </div>
+    </section>
   )
 }
 
-export default ContactPage
+export default Contact
