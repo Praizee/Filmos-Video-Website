@@ -2,6 +2,7 @@
 
  Filmos (Video Website)
 <https://webflow.com/templates/html/filmos-video-website-template>
+![Alt text](image.png)
 
 # React + Vite
 
