@@ -6,7 +6,7 @@ import AboutUs from "./Pages/AboutUs";
 import Contact from "./Pages/Contact";
 import LoginPage from "./Pages/Login";
 import SignUpPage from "./Pages/SignUp";
-import DetailsPage from "./Pages/Details";
+import Details from "./Pages/Details";
 import NotFoundPage from "./Pages/404 Page/NotFoundPage";
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="about-us" element={<AboutUs />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="details" element={<DetailsPage />} />
+          <Route path="details" element={<Details />} />
           <Route path="login" element={<LoginPage />} />
           <Route path="signup" element={<SignUpPage />} />
           {/* This is the catch-all route */}
