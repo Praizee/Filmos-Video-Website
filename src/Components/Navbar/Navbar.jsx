@@ -45,16 +45,16 @@ const Navbar = () => {
           {/* end of hamburger menu */}
 
           {/* mobile navbar */}
-          {showNav && <ul tabIndex={0} className="absolute w-[94%] pb-3 p-4 -ml-[18rem] h-auto mt-2 border border-t-2 z-[10] bg-white focus:bg-white rounded-b-box">
+          {showNav && <ul tabIndex={0} className="absolute flex w-[94%] pb-3 p-4 -ml-[18rem] h-[auto] mt-2 border border-t-2 z-[10] bg-black  rounded-b-box">
             {/* dropdown-content */}
             {NavbarData.map((item, index) => {
               return (
                 <li key={index} className="">
                   {/* "flex min-w-max p-4" */}
                   <NavLink to={item.path} className={({ isActive }) =>
-                    isActive ? 'flex min-w-max rounded-none font-semibold focus:bg-white p-2 border-b-[3px] border-[black]' : 'flex rounded-none focus:bg-white min-w-max py-2 px-2'
+                    isActive ? 'flex min-w-max ' : 'flex rounded-none '
                   }>
-                    <span className="">{item.title}</span>
+                    <img src={item.image} className="w-[20%]" />
                   </NavLink>
                 </li>
               );
@@ -71,11 +71,11 @@ const Navbar = () => {
           </a>
 
           <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
-            <img src={DribbleIcon} className="w-full" alt="Dribble icon" />
+            <img src={PexelsIcon} className="w-full" alt="Dribble icon" />
           </a>
 
           <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
-            <img src={DribbleIcon} className="w-full" alt="Dribble icon" />
+            <img src={BehanceIcon} className="w-full" alt="Dribble icon" />
           </a>
         </span>
       </div>
