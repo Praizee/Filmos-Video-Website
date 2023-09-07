@@ -5,7 +5,6 @@ import BehanceIcon from "../../assets/6000113bd9f0ea6ec6a70b89_behance-white.svg
 export const NavbarData = [
   {
     image: DribbleIcon,
-    // title: "About Us",
     path: "",
     className: "",
   },
@@ -20,16 +19,16 @@ export const NavbarData = [
     image: BehanceIcon,
     path: "",
     className: "",
-  },
-
-  {
-    title: "Login",
-    path: "/login",
-    className: "laptop:hidden flex",
-  },
-  {
-    title: "Sign Up",
-    path: "/signup",
-    className: "laptop:hidden flex",
   }
+
+  // {
+  //   title: "Login",
+  //   path: "/login",
+  //   className: "laptop:hidden flex",
+  // },
+  // {
+  //   title: "Sign Up",
+  //   path: "/signup",
+  //   className: "laptop:hidden flex",
+  // }
 ];
