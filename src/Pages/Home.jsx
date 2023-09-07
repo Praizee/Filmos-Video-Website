@@ -22,9 +22,17 @@ const Home = () => {
         transition={{ duration: 3 }}
       >
 
-        <div className="hero min-h-screen bg-[#f8f8fd]">
+        <div className="hero min-h-screen ">
+          {/* bg-[#f8f8fd] */}
+
+
 
         </div>
+
+        <div className="">
+
+        </div>
+
 
       </motion.div>
     </section>
