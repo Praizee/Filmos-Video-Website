@@ -32,7 +32,7 @@ const Home = () => {
         transition={{ duration: 3 }}
       >
 
-        <div className=" laptop:mt-[20rem] border h-[4rem] p-4 laptop:p-0 mt-[10rem] min-h-screen mb-0 laptop:mx-[7rem] ">
+        <div className=" laptop:mt-[20rem] border-4 h-[4rem] p-4 laptop:p-0 mt-[10rem] min-h-screen mb-0 laptop:mx-[7rem] ">
           {/* bg-[#f8f8fd] */}
           <div className="">
             <h1 class="laptop:text-[9rem] laptop:leading-[8rem] font-black">
@@ -44,9 +44,24 @@ const Home = () => {
 
         </div>
 
-        <div className="border-2 mt-0">
-          <div className="laptop:mx-[7rem] h-60">
-            <img src="" className="" alt="" />
+        <div className=" my-20 mx-4 laptop:mx-0">
+          <div className="laptop:mx-[7rem] ">
+            <img src={Palm} className="laptop:w-1/2 my-2 w-auto" alt="" />
+            <span className="laptop:flex gap-4 block">
+              <img src={ChainFence} className="laptop:w-1/2 my-2 w-auto" alt="" />
+              <img src={IceSkating} className="laptop:w-1/2 my-2 w-auto" alt="" />
+            </span>
+            <img src={Shrug} className="laptop:w-1/2 my-2 w-auto" alt="" />
+            <span className="laptop:flex gap-4 block">
+              <img src={Eye} className="laptop:w-1/2 my-2 w-auto" alt="" />
+              <img src={Freckles} className="laptop:w-1/2 my-2 w-auto" alt="" />
+            </span>
+            <img src={Boat} className="laptop:w-1/2 my-2 w-auto" alt="" />
+            <span className="laptop:flex gap-4 block">
+              <img src={RugLady} className="laptop:w-1/2 my-2 w-auto" alt="" />
+              <img src={PillowLady} className="laptop:w-1/2 my-2 w-auto" alt="" />
+            </span>
+            <img src={Thinking} className="laptop:w-1/2 my-2 w-auto" alt="" />
           </div>
 
         </div>
