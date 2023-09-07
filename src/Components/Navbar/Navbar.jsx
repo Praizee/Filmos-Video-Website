@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { NavbarData } from "./NavbarData"
 import BlackLogo from "../../assets/5ffffae014844edabd6b8c5c_logo-black.svg"
 import DribbleIcon from "../../assets/6000113b522b1655c42d9a2f_dribbble-white.svg"
-import PexelsIcon from "../../assets/6007e364b866bac7b02ab79d_pexels-cottonbro-5822369.jpg"
+import VimeoIcon from "../../assets/6000113b0709454067001834_vimeo-white.svg"
 import BehanceIcon from "../../assets/6000113bd9f0ea6ec6a70b89_behance-white.svg"
 
 const Navbar = () => {
@@ -71,7 +71,7 @@ const Navbar = () => {
           </a>
 
           <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
-            <img src={PexelsIcon} className="w-full" alt="Dribble icon" />
+            <img src={VimeoIcon} className="w-full" alt="Dribble icon" />
           </a>
 
           <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
