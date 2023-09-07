@@ -1,17 +1,17 @@
 import DribbleIcon from "../../assets/6000113b522b1655c42d9a2f_dribbble-white.svg"
-import PexelsIcon from "../../assets/6007e364b866bac7b02ab79d_pexels-cottonbro-5822369.jpg"
+import VimeoIcon from "../../assets/6000113b0709454067001834_vimeo-white.svg"
 import BehanceIcon from "../../assets/6000113bd9f0ea6ec6a70b89_behance-white.svg"
 
 export const NavbarData = [
   {
-    image: BehanceIcon,
+    image: DribbleIcon,
     // title: "About Us",
     path: "",
     className: "",
   },
 
   {
-    image: PexelsIcon,
+    image: VimeoIcon,
     path: "",
     className: "",
   },
