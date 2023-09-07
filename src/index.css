@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 * {
+    font-family: 'Golos Text', sans-serif;
     font-size: 16px;
     scroll-behavior: smooth;
 }
