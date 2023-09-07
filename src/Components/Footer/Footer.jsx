@@ -6,16 +6,16 @@ const Footer = () => {
   // end of date
 
   return (
-    <div className="bg-[#010886] text-[#D6DDEB] ">
+    <div className="bg-[black] text-[#D6DDEB] ">
       <footer id="footer"
         className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[8rem] mx-0">
         <div className="laptop:-mr-[9rem] laptop:-ml-10">
           {/* <img src={CoHabit} className="-ml-5" alt="web-logo" /> */}
           <p className="w-[21rem] text-[1rem] font-normal leading-[1.6rem] laptop:mt-5">
-            Our mission is to help people find <br className="hidden laptop:flex" />
-            affordable homes
-            with a seamless and <br className="hidden laptop:flex" />
-            rewarding shared experiences.
+            Our mission is to lorem ipsum dolor <br className="hidden laptop:flex" />
+            sit amet ipsum velit
+            takimata takimata <br className="hidden laptop:flex" />
+            sit blandit odio sea dolor lorem erat.
           </p>
 
           <div className="tablet:block mt-6 hidden laptop:hidden">
@@ -97,14 +97,14 @@ const Footer = () => {
         <p className="py-4 copyright laptop:mr-[31rem] hidden laptop:block tablet:block text-[#ffffff74] text-center">
           <span>{theDate} </span>
           @
-          Co-habit.
+          Filmos.
           All rights reserved.
         </p>
 
         <p className="py-4 copyright laptop:mr-[31rem] laptop:hidden tablet:hidden text-[#ffffff74] text-left mx-6">
           <span>{theDate} </span>
           @
-          Co-habit.
+          Filmos.
           All rights reserved.
         </p>
         {/* end of copyright */}
