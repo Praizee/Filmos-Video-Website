@@ -1,21 +1,24 @@
-import React from "react";
+import DribbleIcon from "../../assets/6000113b522b1655c42d9a2f_dribbble-white.svg"
+import PexelsIcon from "../../assets/6007e364b866bac7b02ab79d_pexels-cottonbro-5822369.jpg"
+import BehanceIcon from "../../assets/6000113bd9f0ea6ec6a70b89_behance-white.svg"
 
 export const NavbarData = [
   {
-    title: "Home",
-    path: "/",
+    image: BehanceIcon,
+    // title: "About Us",
+    path: "",
     className: "",
   },
 
   {
-    title: "About Us",
-    path: "/about-us",
+    image: PexelsIcon,
+    path: "",
     className: "",
   },
 
   {
-    title: "Contact",
-    path: "/contact",
+    image: BehanceIcon,
+    path: "",
     className: "",
   },
 
