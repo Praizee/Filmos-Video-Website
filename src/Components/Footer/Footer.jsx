@@ -1,4 +1,5 @@
 import React from "react";
+import WhiteLogo from "../../assets/5ffffadf6ee51c8077d3388b_logo-white.svg"
 
 const Footer = () => {
   // date for copyright
@@ -8,9 +9,9 @@ const Footer = () => {
   return (
     <div className="bg-[black] text-[#D6DDEB] ">
       <footer id="footer"
-        className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[8rem] mx-0">
+        className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0">
         <div className="laptop:-mr-[9rem] laptop:-ml-10">
-          {/* <img src={CoHabit} className="-ml-5" alt="web-logo" /> */}
+          <img src={WhiteLogo} className="" alt="web-logo" />
           <p className="w-[21rem] text-[1rem] font-normal leading-[1.6rem] laptop:mt-5">
             Our mission is to lorem ipsum dolor <br className="hidden laptop:flex" />
             sit amet ipsum velit
@@ -91,7 +92,7 @@ const Footer = () => {
 
       {/* <img src={FooterLine} className="w-[80%] laptop:mx-[8rem]" alt="footer-line" /> */}
 
-      <div className="laptop:flex tablet:flex tablet:mx-6 tablet:justify-between laptop:mx-[8rem] laptop:py-6 mx-auto">
+      <div className="laptop:flex tablet:flex tablet:mx-6 tablet:justify-between laptop:mx-[7.1rem] laptop:py-6 mx-auto">
 
         {/* copyright */}
         <p className="py-4 copyright laptop:mr-[31rem] hidden laptop:block tablet:block text-[#ffffff74] text-center">
