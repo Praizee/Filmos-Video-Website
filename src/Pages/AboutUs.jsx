@@ -25,7 +25,6 @@ const AboutUs = () => (
 
 
       </div>
-      {/* END OF OUR STORY */}
 
 
     </motion.div>
