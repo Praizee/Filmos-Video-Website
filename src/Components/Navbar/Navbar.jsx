@@ -66,7 +66,7 @@ const Navbar = () => {
 
       <div className="navbar-end laptop:mr-[7.5rem] hidden laptop:flex">
         <span className="flex gap-4 p-">
-          <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
+          <a className=" hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
             <img src={DribbleIcon} className="w-full" alt="Dribble icon" />
           </a>
 
