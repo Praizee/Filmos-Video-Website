@@ -22,14 +22,23 @@ const Home = () => {
         transition={{ duration: 3 }}
       >
 
-        <div className="hero min-h-screen ">
+        <div className="mt-12 min-h-screen laptop:mx-[7rem] ">
           {/* bg-[#f8f8fd] */}
+          <div className="">
+            <h1 class="text-[9rem]">
+              Video  <br />
+              production.
+            </h1>
 
 
+          </div>
 
         </div>
 
-        <div className="">
+        <div className=" bg-[#f8f8fd]">
+          <div className="laptop:mx-[7rem] h-60">
+
+          </div>
 
         </div>
 
