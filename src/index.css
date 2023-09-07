@@ -12,12 +12,24 @@
 }
 
 img {
-    /* -webkit-user-drag: none;
-    pointer-events: none; */
+    -webkit-user-drag: none;
+    pointer-events: none;
     /* Disable right-clicking */
     /* user-drag: none; */
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.image-container {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 0;
+    /* Use a lower z-index value to position it below the image-container */
+    /* Add your desired positioning and styling here */
 }
