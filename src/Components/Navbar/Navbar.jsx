@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { NavbarData } from "./NavbarData"
 import BlackLogo from "../../assets/5ffffae014844edabd6b8c5c_logo-black.svg"
+import DribbleIcon from "../../assets/6000113b522b1655c42d9a2f_dribbble-white.svg"
+import PexelsIcon from "../../assets/6007e364b866bac7b02ab79d_pexels-cottonbro-5822369.jpg"
+import BehanceIcon from "../../assets/6000113bd9f0ea6ec6a70b89_behance-white.svg"
 
 const Navbar = () => {
   const [showNav, setshowNav] = useState(false)
@@ -62,7 +65,19 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end laptop:mr-[7.5rem] hidden laptop:flex">
+        <span className="flex gap-4 p-">
+          <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
+            <img src={DribbleIcon} className="w-full" alt="Dribble icon" />
+          </a>
 
+          <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
+            <img src={DribbleIcon} className="w-full" alt="Dribble icon" />
+          </a>
+
+          <a className="hover:bg-black bg-black/10 rounded-full p-4 transition duration-300 ease-linear">
+            <img src={DribbleIcon} className="w-full" alt="Dribble icon" />
+          </a>
+        </span>
       </div>
 
     </div>
