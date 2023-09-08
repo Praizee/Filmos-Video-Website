@@ -45,13 +45,13 @@ const Home = () => {
       >
         <div className="laptop:mt-[20rem] h-[4rem] p-4 laptop:p-0 mt-[10rem] laptop:min-h-screen mb-0 laptop:mx-[7rem] ">
           <div>
-            <h1 className="laptop:text-[9rem] text-[3rem] pb-12 laptop:leading-[8rem] font-black">
+            <h1 className="laptop:text-[9rem] text-[3rem] laptop:leading-[8rem] font-black">
               Video <br /> production.
             </h1>
           </div>
         </div>
 
-        <div className="my-20 mx-4 laptop:mx-0">
+        <div className="my-36 laptop:my-0 mx-4 laptop:mx-0">
           <div className="laptop:mx-[7rem]">
             {[Palm, ChainFence, IceSkating, Shrug, Eye, Freckles, Boat, RugLady, PillowLady, Thinking].map((image, index) => (
               <div key={index} className={`relative ${imageStyles[index]} mx-auto my-2`}>
