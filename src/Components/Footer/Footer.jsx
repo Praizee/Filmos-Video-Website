@@ -10,7 +10,12 @@ const Footer = () => {
     <div className="bg-[black] text-[#D6DDEB] ">
       <footer id="footer"
         className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0">
+
         <div className="laptop:-mr-[9rem] laptop:-ml-10">
+          <h1 className="laptop:text-[3rem] laptop:leading-[4rem] font-black">
+            Got a project? <br />
+            Let's talk.
+          </h1>
           <img src={WhiteLogo} className="" alt="web-logo" />
           <p className="w-[21rem] text-[1rem] font-normal leading-[1.6rem] laptop:mt-5">
             Our mission is to lorem ipsum dolor <br className="hidden laptop:flex" />
