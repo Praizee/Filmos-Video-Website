@@ -36,13 +36,13 @@ const Footer = () => {
 
         <div className=" hidden laptop:footer tablet:footer">
           <div className="laptop:ml-[2.5rem]">
-            <span className="font-medium text-[1.125rem] laptop:mb-4">ADDRESS</span>
+            <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">ADDRESS</span>
             <a className="link link-hover font-normal leading-[1.6rem]">Dummy Street 12</a>
             <a className="link link-hover font-normal leading-[1.6rem]">80636 City</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Country</a>
           </div>
-          <div>
-            <span className="font-medium text-[1.125rem] laptop:mb-4">CONTACT</span>
+          <div className="laptop:ml-[2.5rem]">
+            <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">CONTACT</span>
             <a href="mailto:sayhi@template.com" className="link link-hover font-normal leading-[1.6rem]">sayhi@template.com</a>
             <a href="tel:+49 152 3475 67" className="link link-hover font-normal leading-[1.6rem]">+49 152 3475 67</a>
           </div>
@@ -54,22 +54,20 @@ const Footer = () => {
       <footer className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0">
         <div className="laptop:-mr-[9rem] laptop:-ml-10">
 
-          <div className="tablet:hidden laptop:block">
-            <span className="font-medium text-[1.125rem] laptop:mb-4">SUBSCRIBE TO NEWSLETTER</span>
+          <div className="tablet:hidden min-w-[26rem] laptop:block">
+            <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">
+              SUBSCRIBE TO NEWSLETTER
+            </span>
             <div className="flex-col w-[18rem] laptop:mt-12 tablet:w-[14rem] laptop:w-[18rem]">
-              <div className="relative">
-                {/* <input type="email"
-                  placeholder="Email Address"
-                  required
-                  className="input tablet:input laptop:input bg-black input-bordered rounded-none text-white/25 w-full pr-16 mr-6" /> */}
+              <div className="relative border border-x-transparent border-t-transparent border-white/25">
                 <input
                   type="email"
                   placeholder="Email Address"
                   required
-                  className="p-3 bg-black border border-x-transparent border-t-transparent border-white/25"
+                  className="py-3 px-0 bg-black text-white/75 w-full input rounded-none "
                 />
 
-                <button className="btn hover:bg-transparent hover:translate-x-4 absolute -top-0 right-4 rounded-none bg-transparent text-white border border-x-transparent border-t-transparent border-white/25">
+                <button className="btn hover:bg-transparent hover:translate-x-4 absolute -top-0 right-4 rounded-none bg-transparent text-white border-none">
                   <FiArrowRight size="1.5rem" />
                 </button>
               </div>
@@ -78,9 +76,9 @@ const Footer = () => {
 
         </div>
 
-        <div className=" hidden laptop:footer tablet:footer">
+        <div className=" laptop:footer tablet:footer">
           <div className="laptop:ml-[2.5rem]">
-            <span className="font-medium text-[1.125rem] laptop:mb-4">DEMOS</span>
+            <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">DEMOS</span>
             <a className="link link-hover font-normal leading-[1.6rem]">Home v.1</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Home v.2</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Home v.3</a>
@@ -88,7 +86,7 @@ const Footer = () => {
             <a className="link link-hover font-normal leading-[1.6rem]">Privacy Policy</a>
           </div>
           <div>
-            <span className="font-medium text-[1.125rem] laptop:mb-4">UTILITY</span>
+            <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">UTILITY</span>
             <a className="link link-hover font-normal leading-[1.6rem]">Style Guide</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Instructions</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Licenses</a>
