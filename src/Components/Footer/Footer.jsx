@@ -1,5 +1,6 @@
 import React from "react";
 import WhiteLogo from "../../assets/5ffffadf6ee51c8077d3388b_logo-white.svg"
+import { FiArrowRight } from "react-icons/fi";
 
 const Footer = () => {
   // date for copyright
@@ -7,93 +8,97 @@ const Footer = () => {
   // end of date
 
   return (
-    <div className="bg-[black] text-[#D6DDEB] ">
-      <footer id="footer"
-        className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0">
-
-        <div className="laptop:-mr-[9rem] laptop:-ml-10">
-          <h1 className="laptop:text-[3rem] laptop:leading-[4rem] font-black">
+    <div className="bg-[black] text-white ">
+      <footer
+        className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7rem] mx-0">
+        <div className="laptop:-mr-[9rem] laptop:-ml-10 w-full py-12">
+          <h1 className="laptop:text-[5rem] laptop:leading-[6rem] pb-16 font-black">
             Got a project? <br />
             Let's talk.
           </h1>
+
+        </div>
+      </footer>
+
+
+      <footer className="footer laptop:p-10 laptop:py-16 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0 border border-white/25 border-x-transparent">
+
+        <div className="laptop:-mr-[9rem] laptop:-ml-10">
           <img src={WhiteLogo} className="" alt="web-logo" />
-          <p className="w-[21rem] text-[1rem] font-normal leading-[1.6rem] laptop:mt-5">
-            Our mission is to lorem ipsum dolor <br className="hidden laptop:flex" />
-            sit amet ipsum velit
-            takimata takimata <br className="hidden laptop:flex" />
-            sit blandit odio sea dolor lorem erat.
+          <p className="w- text-[1rem] font-normal leading-[1.6rem] laptop:mt-5">
+            Showcase your portfolio. Perfect for Video Production and Creative
+            <br className="hidden laptop:flex" />
+            Studios.
+
           </p>
 
-          <div className="tablet:block mt-6 hidden laptop:hidden">
-            <span className="font-medium text-[1.125rem] laptop:mb-4">Get notifications</span>
-            <p className="leading-[1.6rem] tablet:mt-4 tablet:w-[80%]">
-              The latest news, articles, sent to your <br className="hidden laptop:flex" />
-              inbox weekly.
-            </p>
-            <div className="flex-col tablet:w-[20rem] tablet:mt-2 laptop:w-[18rem]">
-              <div className="relative">
-                <input type="email"
-                  placeholder="Email Address"
-                  // required
-                  className="input tablet:input laptop:input input-bordered rounded-none text-[#A8ADB7] w-full bg-white pr-16 mr-6" />
-                <button className="btn hover:bg-[#DF8026] mt-3 laptop:mt-0 tablet:mt-0 tablet:w-[] bg-[#df7f26f2] text-black font-bold text-[1.125rem] normal-case laptop:absolute tablet:absolute top-0 right-0 rounded-none laptop:rounded-lg border-none tablet:rounded-lg tablet:rounded-l-none laptop:rounded-l-none">Subscribe</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" footer flex gap-[8rem] laptop:hidden tablet:hidden">
-          <div className="laptop:ml-[2.5rem]">
-            <span className="font-medium text-[1.125rem] laptop:mb-4">About</span>
-            <a className="link link-hover font-normal leading-[1.6rem]">Companies</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Pricing</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Terms</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Advice</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Privacy Policy</a>
-          </div>
-          <div>
-            <span className="font-medium text-[1.125rem] laptop:mb-4">Resources</span>
-            <a className="link link-hover font-normal leading-[1.6rem]">Help Docs</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Guide</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Updates</a>
-            <a className="link link-hover font-normal">Contact Us</a>
-          </div>
         </div>
 
         <div className=" hidden laptop:footer tablet:footer">
           <div className="laptop:ml-[2.5rem]">
-            <span className="font-medium text-[1.125rem] laptop:mb-4">About</span>
-            <a className="link link-hover font-normal leading-[1.6rem]">Companies</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Pricing</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Terms</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Advice</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Privacy Policy</a>
+            <span className="font-medium text-[1.125rem] laptop:mb-4">ADDRESS</span>
+            <a className="link link-hover font-normal leading-[1.6rem]">Dummy Street 12</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">80636 City</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">Country</a>
           </div>
           <div>
-            <span className="font-medium text-[1.125rem] laptop:mb-4">Resources</span>
-            <a className="link link-hover font-normal leading-[1.6rem]">Help Docs</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Guide</a>
-            <a className="link link-hover font-normal leading-[1.6rem]">Updates</a>
-            <a className="link link-hover font-normal">Contact Us</a>
+            <span className="font-medium text-[1.125rem] laptop:mb-4">CONTACT</span>
+            <a href="mailto:sayhi@template.com" className="link link-hover font-normal leading-[1.6rem]">sayhi@template.com</a>
+            <a href="tel:+49 152 3475 67" className="link link-hover font-normal leading-[1.6rem]">+49 152 3475 67</a>
           </div>
         </div>
 
-        <div className="tablet:hidden laptop:block">
-          <span className="font-medium text-[1.125rem] laptop:mb-4">Get notifications</span>
-          <p className="leading-[1.6rem] laptop:w-full laptop:mt-6 tablet:w-[80%]">
-            The latest news, articles, sent to your <br className="hidden laptop:flex" />
-            inbox weekly.
-          </p>
-          <div className="flex-col w-[18rem] laptop:mt-3 tablet:w-[14rem] laptop:w-[18rem]">
-            <div className="relative">
-              <input type="email"
-                placeholder="Email Address"
-                // required
-                className="input tablet:input laptop:input input-bordered rounded-none text-[#A8ADB7] w-full bg-white pr-16 mr-6" />
-              <button className="btn hover:bg-[#DF8026] mt-3 laptop:mt-0 tablet:mt-0 tablet:w-[] bg-[#df7f26f2] text-black font-bold text-[1.125rem] normal-case laptop:absolute tablet:absolute top-0 right-0 rounded-none laptop:rounded-lg border-none tablet:rounded-lg tablet:rounded-l-none laptop:rounded-l-none">Subscribe</button>
+      </footer>
+
+
+      <footer className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0">
+        <div className="laptop:-mr-[9rem] laptop:-ml-10">
+
+          <div className="tablet:hidden laptop:block">
+            <span className="font-medium text-[1.125rem] laptop:mb-4">SUBSCRIBE TO NEWSLETTER</span>
+            <div className="flex-col w-[18rem] laptop:mt-12 tablet:w-[14rem] laptop:w-[18rem]">
+              <div className="relative">
+                {/* <input type="email"
+                  placeholder="Email Address"
+                  required
+                  className="input tablet:input laptop:input bg-black input-bordered rounded-none text-white/25 w-full pr-16 mr-6" /> */}
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  required
+                  className="p-3 bg-black border border-x-transparent border-t-transparent border-white/25"
+                />
+
+                <button className="btn hover:bg-transparent hover:translate-x-4 absolute -top-0 right-4 rounded-none bg-transparent text-white border border-x-transparent border-t-transparent border-white/25">
+                  <FiArrowRight size="1.5rem" />
+                </button>
+              </div>
             </div>
           </div>
+
         </div>
+
+        <div className=" hidden laptop:footer tablet:footer">
+          <div className="laptop:ml-[2.5rem]">
+            <span className="font-medium text-[1.125rem] laptop:mb-4">DEMOS</span>
+            <a className="link link-hover font-normal leading-[1.6rem]">Home v.1</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">Home v.2</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">Home v.3</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">Contact</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">Privacy Policy</a>
+          </div>
+          <div>
+            <span className="font-medium text-[1.125rem] laptop:mb-4">UTILITY</span>
+            <a className="link link-hover font-normal leading-[1.6rem]">Style Guide</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">Instructions</a>
+            <a className="link link-hover font-normal leading-[1.6rem]">Licenses</a>
+            <a className="link link-hover font-normal">Changelog</a>
+          </div>
+        </div>
+
       </footer>
+
+
 
       {/* <img src={FooterLine} className="w-[80%] laptop:mx-[8rem]" alt="footer-line" /> */}
 
