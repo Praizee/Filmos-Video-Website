@@ -12,7 +12,7 @@ const Footer = () => {
       <footer
         className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7rem] mx-0">
         <div className="laptop:-mr-[9rem] laptop:-ml-10 w-full py-12">
-          <h1 className="laptop:text-[5rem] laptop:leading-[6rem] pb-16 font-black">
+          <h1 className="laptop:text-[5rem] text-[2rem] leading-[3rem] laptop:leading-[6rem] laptop:pb-6 pb-3 font-black">
             Got a project? <br />
             Let's talk.
           </h1>
@@ -21,12 +21,13 @@ const Footer = () => {
       </footer>
 
 
-      <footer className="footer laptop:p-10 laptop:py-16 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0 border border-white/25 border-x-transparent">
+      <footer className="footer mx-2 laptop:p-10 laptop:py-16 p-6 max-w-[90%] laptop:mx-[7.1rem] border border-white/25 border-x-transparent">
 
         <div className="laptop:-mr-[9rem] laptop:-ml-10">
           <img src={WhiteLogo} className="" alt="web-logo" />
-          <p className="w- text-[1rem] font-normal leading-[1.6rem] laptop:mt-5">
-            Showcase your portfolio. Perfect for Video Production and Creative
+          <p className="mt-2 text-[1rem] font-normal leading-[1.6rem] laptop:mt-5">
+            Showcase your portfolio. Perfect for
+            Video Production and Creative
             <br className="hidden laptop:flex" />
             Studios.
 
@@ -102,15 +103,15 @@ const Footer = () => {
 
       <div className="laptop:flex py-10 justify-between laptop:mx-[7rem]">
         {/* copyright */}
-        <p className="py-2 copyright laptop:mr-[rem] laptop:ml-0 -ml-9 laptop:block tablet:block text-[#ffffff74] text-center">
-          <span>{theDate} </span>
+        <p className="py-2 copyright laptop:mr-[rem] laptop:ml-0 mx-8 text-[0.85rem] laptop:block tablet:block text-[#ffffff74]">
+          <span className="text-[0.85rem]">{theDate} </span>
           @
           Filmos.
           All rights reserved.
         </p>
 
-        <a className="py-2 link link-hover copyright laptop:ml-0 ml-7 laptop:mr-[rem] laptop:block tablet:block text-white/50 text-center">
-          POWERED BY WEBFLOW
+        <a className="py-2 link link-hover copyright laptop:mr-8 mx-7 text-[0.85rem] laptop:block tablet:block text-white/50">
+          Powered By Webflow
         </a>
         {/* end of copyright */}
       </div>
