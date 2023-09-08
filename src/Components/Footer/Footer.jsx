@@ -117,8 +117,6 @@ const Footer = () => {
           All rights reserved.
         </p>
         {/* end of copyright */}
-
-
       </div>
 
     </div>
