@@ -34,7 +34,7 @@ const Footer = () => {
 
         </div>
 
-        <div className=" hidden laptop:footer tablet:footer">
+        <div className="hidden laptop:footer tablet:footer">
           <div className="laptop:ml-[2.5rem]">
             <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">ADDRESS</span>
             <a className="link link-hover font-normal leading-[1.6rem]">Dummy Street 12</a>
@@ -76,8 +76,8 @@ const Footer = () => {
 
         </div>
 
-        <div className="footer ">
-          <div className="laptop:ml-[rem]">
+        <div className="footer">
+          <div className="laptop:ml-[rem] mb-8 laptop:mb-0 tablet:mb-0">
             <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">DEMOS</span>
             <a className="link link-hover font-normal leading-[1.6rem]">Home v.1</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Home v.2</a>
@@ -100,16 +100,16 @@ const Footer = () => {
 
       {/* <img src={FooterLine} className="w-[80%] laptop:mx-[8rem]" alt="footer-line" /> */}
 
-      <div className="flex py-10 justify-between laptop:mx-[7rem]">
+      <div className="laptop:flex py-10 justify-between laptop:mx-[7rem]">
         {/* copyright */}
-        <p className="py-2 copyright laptop:mr-[rem] hidden laptop:block tablet:block text-[#ffffff74] text-center">
+        <p className="py-2 copyright laptop:mr-[rem] laptop:ml-0 -ml-9 laptop:block tablet:block text-[#ffffff74] text-center">
           <span>{theDate} </span>
           @
           Filmos.
           All rights reserved.
         </p>
 
-        <a className="py-2 link link-hover copyright laptop:mr-[rem] hidden laptop:block tablet:block text-white/50 text-center">
+        <a className="py-2 link link-hover copyright laptop:ml-0 ml-7 laptop:mr-[rem] laptop:block tablet:block text-white/50 text-center">
           POWERED BY WEBFLOW
         </a>
         {/* end of copyright */}
