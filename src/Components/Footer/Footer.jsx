@@ -76,8 +76,8 @@ const Footer = () => {
 
         </div>
 
-        <div className=" laptop:footer tablet:footer">
-          <div className="laptop:ml-[2.5rem]">
+        <div className="footer ">
+          <div className="laptop:ml-[rem]">
             <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">DEMOS</span>
             <a className="link link-hover font-normal leading-[1.6rem]">Home v.1</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Home v.2</a>
@@ -100,9 +100,22 @@ const Footer = () => {
 
       {/* <img src={FooterLine} className="w-[80%] laptop:mx-[8rem]" alt="footer-line" /> */}
 
-      <div className="laptop:flex tablet:flex tablet:mx-6 tablet:justify-between laptop:mx-[7.1rem] laptop:py-6 mx-auto">
-
+      <div className="flex py-10 justify-between laptop:mx-[7rem]">
         {/* copyright */}
+        <p className="py-2 copyright laptop:mr-[rem] hidden laptop:block tablet:block text-[#ffffff74] text-center">
+          <span>{theDate} </span>
+          @
+          Filmos.
+          All rights reserved.
+        </p>
+
+        <a className="py-2 link link-hover copyright laptop:mr-[rem] hidden laptop:block tablet:block text-white/50 text-center">
+          POWERED BY WEBFLOW
+        </a>
+        {/* end of copyright */}
+      </div>
+
+      {/* <div className="laptop:flex tablet:flex tablet:mx-6 tablet:justify-between laptop:mx-[7.1rem] laptop:py-6 mx-auto">
         <p className="py-4 copyright laptop:mr-[31rem] hidden laptop:block tablet:block text-[#ffffff74] text-center">
           <span>{theDate} </span>
           @
@@ -116,8 +129,8 @@ const Footer = () => {
           Filmos.
           All rights reserved.
         </p>
-        {/* end of copyright */}
-      </div>
+
+      </div> */}
 
     </div>
 
