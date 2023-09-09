@@ -107,31 +107,26 @@ const Home = () => {
           <div className="laptop:mx-[7rem]">
             {[Palm, ChainFence, IceSkating, Shrug, Eye, Freckles, Boat, RugLady, PillowLady, Thinking].map((image, index) => (
               <div key={index} className={`relative ${imageStyles[index]} mx-auto my-2`}>
-                <div
-                  className="relative group"
-                  onMouseEnter={() => setHoveredVideo(index)}
-                  onMouseLeave={() => setHoveredVideo(null)}
-                >
-                  <img
-                    src={image}
-                    className="laptop:w-[] w-full my-2 cursor-pointer"
-                    alt=""
-                  />
 
-                  <div className="absolute hidden laptop:flex items-center justify-center group-hover:opacity-100 opacity-0 transition-opacity duration-500">
-                    <div className="text-container text-center absolute text-white bg-black">
-                      <h1 className="">
-                        Common Ground
-                      </h1>
-                      <p className="">
-                        Partner up to reinvent pop <br />
-                        culture and street style
-                      </p>
-                    </div>
+                <img
+                  src={image}
+                  className="laptop:w-[] w-full my-2 cursor-pointer"
+                  alt=""
+                />
 
+                <div className="absolute items-center justify-center">
+                  <div className="text-container text-center absolute text-white bg-black">
+                    <h1 className="">
+                      Common Ground
+                    </h1>
+                    <p className="">
+                      Partner up to reinvent pop <br />
+                      culture and street style
+                    </p>
                   </div>
 
                 </div>
+
               </div>
             ))}
           </div>
