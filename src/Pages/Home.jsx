@@ -106,18 +106,6 @@ const Home = () => {
         <div className="my-36 laptop:hidden laptop:my-0 mx-4 laptop:mx-0">
           <div className="laptop:mx-[7rem] mx-4">
 
-            {/* <div className="absolute w-full items-center justify-center">
-              <div className="text-center w-auto absolute text-white bg-black">
-                <h1 className="">
-                  Common Ground
-                </h1>
-                <p className="">
-                  Partner up to reinvent pop <br />
-                  culture and street style
-                </p>
-              </div>
-            </div> */}
-
             {[Palm, ChainFence, IceSkating, Shrug, Eye, Freckles, Boat, RugLady, PillowLady, Thinking].map((image, index) => (
               <div key={index} className={`relative ${imageStyles[index]} mx-auto my-4`}>
                 <div className="absolute w-full items-center justify-center">
