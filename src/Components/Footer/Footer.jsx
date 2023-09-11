@@ -55,17 +55,18 @@ const Footer = () => {
       <footer className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0">
         <div className="laptop:-mr-[9rem] laptop:-ml-10">
 
-          <div className="tablet:hidden min-w-[26rem] laptop:block">
+          <div className="tablet:hidden laptop:min-w-[26rem] laptop:block">
             <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">
               SUBSCRIBE TO NEWSLETTER
             </span>
             <div className="flex-col w-[18rem] laptop:mt-12 tablet:w-[14rem] laptop:w-[18rem]">
-              <div className="relative border border-x-transparent border-t-transparent border-white/25">
+              <div className="relative w-full border justify-between border-x-transparent border-t-transparent border-white/25">
                 <input
                   type="email"
                   placeholder="Email Address"
                   required
-                  className="py-3 px-0 bg-black text-white/75 w-full input rounded-none "
+                  // size="56.5"
+                  className="py-3 px-0 bg-black text-white/75 min-w-[rem] input rounded-none "
                 />
 
                 <button className="btn hover:bg-transparent hover:translate-x-4 absolute -top-0 right-4 rounded-none bg-transparent text-white border-none">
