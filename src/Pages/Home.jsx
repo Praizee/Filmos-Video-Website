@@ -105,32 +105,31 @@ const Home = () => {
         {/* mobile */}
         <div className="my-36 laptop:hidden laptop:my-0 mx-4 laptop:mx-0">
           <div className="laptop:mx-[7rem]">
-            {[Palm, ChainFence, IceSkating, Shrug, Eye, Freckles, Boat, RugLady, PillowLady, Thinking].map((image, index) => (
-              <div key={index} className={`relative ${imageStyles[index]} mx-auto my-2`}>
 
-                <img
-                  src={image}
-                  className="laptop:w-[] w-full my-2 cursor-pointer"
-                  alt=""
-                />
+            <img
+              src={Palm}
+              className="laptop:w-[] w-full my-2 cursor-pointer"
+              alt=""
+            />
 
-                <div className="absolute items-center justify-center">
-                  <div className="text-container text-center absolute text-white bg-black">
-                    <h1 className="">
-                      Common Ground
-                    </h1>
-                    <p className="">
-                      Partner up to reinvent pop <br />
-                      culture and street style
-                    </p>
-                  </div>
-
-                </div>
-
+            <div className="absolute items-center justify-center">
+              <div className="text-container text-center absolute text-white bg-black">
+                <h1 className="">
+                  Common Ground
+                </h1>
+                <p className="">
+                  Partner up to reinvent pop <br />
+                  culture and street style
+                </p>
               </div>
-            ))}
+
+            </div>
+
           </div>
+
         </div>
+
+
       </motion.div>
     </section>
   );
