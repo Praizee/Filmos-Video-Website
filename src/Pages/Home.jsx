@@ -13,16 +13,16 @@ import Thinking from "../assets/thinking.jpg";
 import Video1 from "../assets/agency-video.mp4";
 
 const imageStyles = [
-  "w-1/2",         // Style for the first image
-  "w-1/2",         // Style for the second image
-  "w-1/2",         // Style for the third image
-  "w-1/2",         // Style for the fourth image
-  "w-1/2",         // Style for the fifth image
-  "w-1/2",         // Style for the sixth image
-  "w-1/2",         // Style for the seventh image
-  "w-1/2",         // Style for the eighth image
-  "w-1/2",         // Style for the ninth image
-  "w-1/2",         // Style for the tenth image
+  "w-full laptop:w-1/2",         // Style for the first image
+  "w-full laptop:w-1/2",         // Style for the second image
+  "w-full laptop:w-1/2",         // Style for the third image
+  "w-full laptop:w-1/2",         // Style for the fourth image
+  "w-full laptop:w-1/2",         // Style for the fifth image
+  "w-full laptop:w-1/2",         // Style for the sixth image
+  "w-full laptop:w-1/2",         // Style for the seventh image
+  "w-full laptop:w-1/2",         // Style for the eighth image
+  "w-full laptop:w-1/2",         // Style for the ninth image
+  "w-full laptop:w-1/2",         // Style for the tenth image
 ];
 
 const animationConfiguration = {
@@ -104,16 +104,10 @@ const Home = () => {
 
         {/* mobile */}
         <div className="my-36 laptop:hidden laptop:my-0 mx-4 laptop:mx-0">
-          <div className="laptop:mx-[7rem]">
+          <div className="laptop:mx-[7rem] mx-4">
 
-            <img
-              src={Palm}
-              className="laptop:w-[] w-full my-2 cursor-pointer"
-              alt=""
-            />
-
-            <div className="absolute items-center justify-center">
-              <div className="text-container text-center absolute text-white bg-black">
+            {/* <div className="absolute w-full items-center justify-center">
+              <div className="text-center w-auto absolute text-white bg-black">
                 <h1 className="">
                   Common Ground
                 </h1>
@@ -122,8 +116,30 @@ const Home = () => {
                   culture and street style
                 </p>
               </div>
+            </div> */}
 
-            </div>
+            {[Palm, ChainFence, IceSkating, Shrug, Eye, Freckles, Boat, RugLady, PillowLady, Thinking].map((image, index) => (
+              <div key={index} className={`relative ${imageStyles[index]} mx-auto my-4`}>
+                <div className="absolute w-full items-center justify-center">
+                  <div className="text-center w-auto absolute text-white bg-black">
+                    <h1 className="">
+                      Common Ground
+                    </h1>
+                    <p className="">
+                      Partner up to reinvent pop <br />
+                      culture and street style
+                    </p>
+                  </div>
+                </div>
+
+                <img
+                  src={image}
+                  className="laptop:w-[] w-full my-2 cursor-pointer"
+                  alt=""
+                />
+
+              </div>
+            ))}
 
           </div>
 
