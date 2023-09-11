@@ -115,8 +115,8 @@ const Home = () => {
                 />
 
                 <div className="absolut w-full items-center justify-center">
-                  <div className="text-center w-auto py-4 text-white bg-black">
-                    <h1 className="">
+                  <div className="text-center w-auto py-12 text-white bg-black">
+                    <h1 className="text font-black text-[1.4rem]">
                       Common Ground
                     </h1>
                     <p className="">
