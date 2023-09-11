@@ -109,7 +109,7 @@ const Home = () => {
             {[Palm, ChainFence, IceSkating, Shrug, Eye, Freckles, Boat, RugLady, PillowLady, Thinking].map((image, index) => (
               <div key={index} className={`relative ${imageStyles[index]} mx-auto my-4`}>
                 <div className="absolute w-full items-center justify-center">
-                  <div className="text-center w-auto absolute text-white bg-black">
+                  <div className="text-center w-auto text-white bg-black">
                     <h1 className="">
                       Common Ground
                     </h1>
