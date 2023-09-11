@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="footer">
           <div className="laptop:ml-[2.5rem] mb-8">
             <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">ADDRESS</span>
-            <a className="link link-hover font-normal leading-[1.6rem]">Dummy Street 12</a>
+            <a className="link link-hover font-normal leading-[1.6rem] tablet:w-[70%] laptop:w-auto">Dummy Street 12</a>
             <a className="link link-hover font-normal leading-[1.6rem]">80636 City</a>
             <a className="link link-hover font-normal leading-[1.6rem]">Country</a>
           </div>
@@ -55,7 +55,7 @@ const Footer = () => {
       <footer className="footer laptop:p-10 p-6 max-w-[90%] laptop:mx-[7.1rem] mx-0">
         <div className="laptop:-mr-[9rem] laptop:-ml-10">
 
-          <div className="tablet:hidden laptop:min-w-[26rem] laptop:block">
+          <div className="tablet:hidde laptop:min-w-[26rem] tablet:min-w-[19rem] laptop:block">
             <span className="text-[0.85rem] text-white/50 font-medium laptop:mb-4">
               SUBSCRIBE TO NEWSLETTER
             </span>
