@@ -52,7 +52,7 @@ const Home = () => {
         </div>
 
         <div className="my-36 hidden laptop:block laptop:my-0 mx-4 laptop:mx-0">
-          <div className="laptop:mx-[7rem]">
+          <div className="laptop:mx-[7rem] mb-16">
             {[Palm, ChainFence, IceSkating, Shrug, Eye, Freckles, Boat, RugLady, PillowLady, Thinking].map((image, index) => (
               <div key={index} className={`relative ${imageStyles[index]} mx-auto my-2`}>
                 <div
