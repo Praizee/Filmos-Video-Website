@@ -8,12 +8,10 @@ export default {
     extend: {},
 
     screens: {
-      'smaller': '350px',
-      // formerly 450
+      'smaller': '450px',
 
       'tablet': '640px',
       // => @media (min-width: 640px) { ... }
-      'midlaptop': '740px',
 
       'laptop': '1024px',
       // => @media (min-width: 1024px) { ... }
@@ -34,7 +32,4 @@ export default {
     }
   },
   plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["light", "dark", "cupcake"],
-  },
 }
